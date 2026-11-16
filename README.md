@@ -13,3 +13,5 @@ python -m pip install -e .
 ```python
 from greet_community import greet
 ```
+python -c "from greet_community import greet; print(greet('Hee'))"
+Hello, Hee!
